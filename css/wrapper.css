@@ -1,6 +1,6 @@
 .wrapper {
-  max-inline-size: 1158px;
-  padding-inline-end: 16px;
+  max-inline-size: 1158px; /* ancho máximo */
+  padding-inline-end: 16px; /* en mobile es el espacio a los costados */
   padding-inline-start: 16px;
   margin: auto;
 }

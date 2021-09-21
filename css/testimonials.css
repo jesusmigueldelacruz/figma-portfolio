@@ -1,0 +1,23 @@
+.testimonials {
+  width: 100%;
+  margin-top: 40px;
+}
+.card-testimonials {
+  width: 85%;
+  margin: 0 auto;
+  padding: 24px;
+  border-radius: 24px;
+  border: 1px solid white;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(39.7657px);
+}
+.user-comment p {
+  font: var(--body3);
+}
+.user-position p {
+  font: var(--caption);
+}
+.user-photo {
+  display: block;
+  margin: auto;
+}

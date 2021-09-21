@@ -4,6 +4,7 @@
 @import "./hero.css";
 @import "./wrapper.css";
 @import "./menu.css";
+@import "./testimonials.css";
 
 :root {
   --fontBase: "Poppins", sans-serif;
@@ -12,8 +13,10 @@
   --headline3: bold 48px/77px var(--fontBase);
   --headline4: bold 34px/55px var(--fontBase);
   --headline5: bold 24px/38px var(--fontBase);
+  --headline6: normal 24px/38px var(--fontBase);
   --body1: 16px/25px var(--fontBase);
   --body2: 14px/22px var(--fontBase);
+  --body3: bold 16px/25px var(--fontBase);
   --button: bold 14px/22px var(--fontBase);
   --caption: 12px/19px var(--fontBase);
   --gradient: radial-gradient(
@@ -31,4 +34,25 @@ body {
   min-block-size: 100vh;
   font: var(--body1);
   color: var(--purple);
+}
+
+.copy-projects {
+  text-align: center;
+  margin-top: 40px;
+  width: 100%;
+}
+.container-copy-projects {
+  width: 95%;
+  margin: auto;
+}
+.copy-one {
+  font: var(--headline6);
+}
+.copy-two {
+  font: var(--headline5);
+}
+.arrow-down {
+  margin: auto;
+  width: 80px;
+  height: 80px;
 }

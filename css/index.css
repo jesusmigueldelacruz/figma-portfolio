@@ -5,6 +5,9 @@
 @import "./wrapper.css";
 @import "./menu.css";
 @import "./testimonials.css";
+@import "./testimony.css";
+@import "./social.css";
+@import "./footer.css";
 
 :root {
   --fontBase: "Poppins", sans-serif;
@@ -34,6 +37,7 @@ body {
   min-block-size: 100vh;
   font: var(--body1);
   color: var(--purple);
+  margin: 0;
 }
 
 .copy-projects {

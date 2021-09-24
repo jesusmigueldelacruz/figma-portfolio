@@ -8,7 +8,7 @@
 }
 .menu ul a {
   text-decoration: none;
-  color: var(--white);
+  color: var(--black);
   font: var(--button);
   text-transform: uppercase;
 }
@@ -16,7 +16,7 @@
 /* .menu ul .is-active (otro modo) */
 /* la clase pegada al "a" */
 .menu ul a.is-active {
-  color: var(--purple);
+  color: var(--gray);
 }
 @media screen and (min-width: 768px) {
   .menu {

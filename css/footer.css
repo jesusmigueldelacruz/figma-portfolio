@@ -1,5 +1,5 @@
-.footer {
-  color: var(--white);
+.footer-content {
+  color: var(--black);
   text-align: center;
 }
 .footer-logo {
@@ -14,14 +14,13 @@
   .footer-logo {
     display: block;
   }
-  .footer {
+  .footer-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
   .footer .social {
     order: 3;
-    padding: 0;
   }
 }
 @media screen and (min-width: 1024px) {

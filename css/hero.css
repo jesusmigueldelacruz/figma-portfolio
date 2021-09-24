@@ -9,11 +9,11 @@
 
 .hero-image {
   text-align: center;
-  padding-block-end: 16px;
 }
 .hero-image img {
   max-width: 100%;
   height: auto;
+  border-radius: 8px;
 }
 .hero h1 {
   font: var(--headline3);

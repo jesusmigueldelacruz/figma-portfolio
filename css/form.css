@@ -1,0 +1,44 @@
+.form-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 540px;
+  margin: auto;
+}
+.form {
+  margin-bottom: 80px;
+}
+.form .title {
+  margin: 0;
+}
+.form p {
+  color: var(--black);
+  margin: 0;
+  text-align: center;
+}
+.form label {
+  display: flex;
+  flex-direction: column;
+  font: var(--button);
+}
+.form input,
+.form textarea {
+  border: 2px solid var(--gray);
+  border-radius: 8px;
+  padding-right: 16px;
+  padding-left: 16px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font: var(--body1);
+  margin-top: 8px;
+  outline: none;
+}
+.form textarea {
+  resize: none;
+}
+@media (min-width: 768px) {
+  .form .title {
+    align-self: stretch;
+    text-align: center;
+  }
+}

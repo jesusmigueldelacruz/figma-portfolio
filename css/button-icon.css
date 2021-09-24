@@ -8,5 +8,7 @@
 }
 
 .button-icon img {
+  width: 24px;
+  height: 24px;
   vertical-align: middle; /* le quito el espacio que se genera cuando una imagen va dentro de un elemento */
 }

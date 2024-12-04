@@ -25,9 +25,9 @@
   --caption: 12px/19px var(--fontBase);
   --background: #e5e5e5;
   /* los gradientes se comportan como imagenes */
-  --black: #2b2b2b;
+  --black: #212121;
   --black2: #000000;
-  --yellow: #ffb400;
+  --yellow: #6e31f4;
   --gray: #767676;
   --white: white;
 }
